@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>在org-mode中显示化学结构式 - ciusy的闲言碎语</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <meta name="description" content="&lt;TODO: insert your description here&gt;" />
+    <meta name="keywords" content="org-mode 化学" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">ciusy的闲言碎语</a></h1>
+        <p>好好学习，天天向上</p>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/wiki/">Wiki</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="http://ciusy.github.io/">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="q" value="site:ciusy.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>在org-mode中显示化学结构式</h1>
+<p>
+在工作中，我已经用org-mode建立了一份产品笔记。但因为是化工行业，有显示化学结构式的需求。
+</p>
+
+<p>
+经过研究，org-mode可以预览latex，而latex又有专门处理化学结构式的包，chemfig。折腾之后，在linux上<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>配置出了org-mode中预览化学结构式。在这里分享出来，有相同需要的人可以少走弯路了。
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">安装latex</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+我的linux发行版是gentoo，所以使用如下命令<sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup>：
+</p>
+<pre class="example">
+emerge -av app-text/texlive
+</pre>
+
+<p>
+发行版不同，latex包名称可能不同。
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">确认chemfig已经安装</h2>
+<div class="outline-text-2" id="text-2">
+<pre class="example">
+updatedb
+locate chemfig
+</pre>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">设置org-mode</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1">dotemacs</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+~/.emacs<sup><a id="fnr.3" name="fnr.3" class="footref" href="#fn.3">3</a></sup>
+</p>
+<pre class="example">
+;; *** org-mode source code blocks
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((python . t)
+   (sh . t)
+   (latex . t)
+   ))
+...
+;; *** org-latex preview http://permalink.gmane.org/gmane.emacs.orgmode/92347
+(setq org-latex-create-formula-image-program 'imagemagick)
+</pre>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2">安装imagemagick包</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+正如上面dotemacs设置的，根据网友的反馈，dvipng可能和chemfig不太兼容，所以转换程序选择imagemagick<sup><a id="fnr.4" name="fnr.4" class="footref" href="#fn.4">4</a></sup>。
+</p>
+<pre class="example">
+emerge -av imagemagick
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">预览化学结构式</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+使用C-c C-x C-l可以预览<sup><a id="fnr.5" name="fnr.5" class="footref" href="#fn.5">5</a></sup>，上图一张。
+</p>
+
+
+<div class="figure">
+<p><a href="http://7vzp8u.com1.z0.glb.clouddn.com/2015-02-22-070815_938x563_scrot.png"><img src="http://7vzp8u.com1.z0.glb.clouddn.com/2015-02-22-070815_938x563_scrot.png" alt="2015-02-22-070815_938x563_scrot.png" /></a>
+</p>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
+在windows上我还没有配置成功，原理上应该可行的。因为工作忙，没有时间在工作电脑上折腾。等空下来再试试看。成功后会再更新这篇wiki。
+</p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+我已按gentoo wiki enable recommended use flags： <a href="http://wiki.gentoo.org/wiki/TeX_Live">http://wiki.gentoo.org/wiki/TeX_Live</a>
+</p>
+<ul class="org-ul">
+<li>cjk
+</li>
+<li>doc
+</li>
+<li>dvi2tty
+</li>
+<li>dvipdfm
+</li>
+<li>graphics
+</li>
+<li>png
+</li>
+<li>pstricks
+</li>
+<li>science
+</li>
+<li>truetype
+</li>
+</ul></div>
+
+<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p class="footpara">
+<a href="http://orgmode.org/worg/org-tutorials/org-latex-preview.html">http://orgmode.org/worg/org-tutorials/org-latex-preview.html</a>
+</p></div>
+
+<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p class="footpara">
+<a href="http://permalink.gmane.org/gmane.emacs.orgmode/92347">http://permalink.gmane.org/gmane.emacs.orgmode/92347</a>
+</p></div>
+
+<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p class="footpara">
+<a href="http://orgmode.org/manual/Previewing-LaTeX-fragments.html">http://orgmode.org/manual/Previewing-LaTeX-fragments.html</a>
+</p></div>
+
+
+</div>
+</div>
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2015-02-22</span>
+        <span title="last modification date" class="post-info">2015-02-22</span>
+        <span title="tags" class="post-info"><a href="/tags/org-mode-化学/">org-mode 化学</a></span>
+        <span title="author" class="post-info"></span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2015/02/22/在org-mode中显示化学结构式";
+          var disqus_url = "http://ciusy.github.io/blog/2015/02/22/在org-mode中显示化学结构式";
+          var disqus_shortname = 'ciusygithubio';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-59925066-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:ian &lt;at&gt; gentoo &lt;dot&gt; at &lt;dot&gt; laptop"></a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
