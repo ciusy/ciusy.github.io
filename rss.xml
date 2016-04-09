@@ -4,8 +4,8 @@
     <title>ciusy的闲言碎语</title>
     <link>http://ciusy.github.io/</link>
     <description>好好学习，天天向上</description>
-    <pubDate>Sat, 09 Apr 2016 12:22:49 CST</pubDate>
-    <lastBuildDate>Sat, 09 Apr 2016 12:22:49 CST</lastBuildDate>
+    <pubDate>Sat, 09 Apr 2016 12:29:23 CST</pubDate>
+    <lastBuildDate>Sat, 09 Apr 2016 12:29:23 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -56,13 +56,6 @@
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2016-04-09</pubDate>
       <guid>http://ciusy.github.io/blog/2015/02/22/在org-mode中显示化学结构式</guid>
-    </item>
-    <item>
-      <title>i3自动启动指定程序并移到相应workspace</title>
-      <link>http://ciusy.github.io/blog/2015/03/03/i3自动启动指定程序并移到相应workspace</link>
-      <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2015-03-03</pubDate>
-      <guid>http://ciusy.github.io/blog/2015/03/03/i3自动启动指定程序并移到相应workspace</guid>
     </item>
   </channel>
 </rss>
