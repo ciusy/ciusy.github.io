@@ -22,9 +22,9 @@
           <li><a href="http://ciusy.github.io/">GitHub</a></li>
           <li><a href="/rss.xml">RSS</a></li>
         </ul>
-        <form method="get" id="searchform" action="http://www.google.com/search">
+        <form method="get" id="searchform" action="//www.google.com/search">
           <input type="text" class="field" name="q" id="s" placeholder="Search">
-          <input type="hidden" name="q" value="site:ciusy.github.io">
+          <input type="hidden" name="as_sitesearch" value="ciusy.github.io">
         </form>
       </header>
     </div>
@@ -41,31 +41,29 @@
 </p>
 
 <ul class="org-ul">
-<li>安装latex，并确认在$PATH中。我选择mitex<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>。
-</li>
-<li>安装imagemagick。
-</li>
-<li>安装ghostscript<sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup>，并确认在$PATH中。非常重要。之前我就是遗漏了这一步，导致一直报错：
+<li>安装latex，并确认在$PATH中。我选择mitex<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>。</li>
+<li>安装imagemagick。</li>
+<li><p>
+安装ghostscript<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>，并确认在$PATH中。非常重要。之前我就是遗漏了这一步，导致一直报错：
+</p>
 <pre class="example">
 org-create-formula-image-with-imagemagick: Failed to create png file
 from c:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/orgtex2966TN.tex
-</pre>
-</li>
-<li>其他设置参见 <a href="https://ciusy.github.io/blog/2015/02/22/%25E5%259C%25A8org-mode%25E4%25B8%25AD%25E6%2598%25BE%25E7%25A4%25BA%25E5%258C%2596%25E5%25AD%25A6%25E7%25BB%2593%25E6%259E%2584%25E5%25BC%258F/">在org-mode中显示化学结构式</a>
-</li>
+</pre></li>
+<li>其他设置参见 <a href="https://ciusy.github.io/blog/2015/02/22/%E5%9C%A8org-mode%E4%B8%AD%E6%98%BE%E7%A4%BA%E5%8C%96%E5%AD%A6%E7%BB%93%E6%9E%84%E5%BC%8F/">在org-mode中显示化学结构式</a></li>
 </ul>
 <div id="footnotes">
 <h2 class="footnotes">Footnotes: </h2>
 <div id="text-footnotes">
 
-<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
-<a href="http://www.mitex.org">http://www.mitex.org</a>
-</p></div>
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+<a href="http://www.mitex.org/">http://www.mitex.org/</a>
+</p></div></div>
 
-<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
 <a href="http://imagemagick.sourceforge.net/http/www/windows.html">ImageMagick For Windows</a> ghostscript用于pdf转png，正是org-create-formula-image-with-imagemagick需要的。
 <a href="https://stackoverflow.com/questions/6591011/imagemagick-errors-convert-pdf-to-images">ImageMagick Errors: Convert PDF to Images - Stack Overflow</a>
-</p></div>
+</p></div></div>
 
 
 </div>
@@ -75,7 +73,7 @@ from c:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/orgtex2966TN.tex
     <div>
       <div class="post-meta">
         <span title="post date" class="post-info">2015-03-22</span>
-        <span title="last modification date" class="post-info">2015-03-22</span>
+        <span title="last modification date" class="post-info">2016-04-09</span>
         <span title="tags" class="post-info"><a href="/tags/org-mode/">org-mode</a></span>
         <span title="author" class="post-info"></span>
       </div>
@@ -90,15 +88,16 @@ from c:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/orgtex2966TN.tex
           /* * * DON'T EDIT BELOW THIS LINE * * */
           (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </section>
-      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-      <script src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
       <script src="/media/js/main.js"></script>
       <script type="text/javascript">
         var _gaq = _gaq || [];

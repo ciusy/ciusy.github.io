@@ -22,9 +22,9 @@
           <li><a href="http://ciusy.github.io/">GitHub</a></li>
           <li><a href="/rss.xml">RSS</a></li>
         </ul>
-        <form method="get" id="searchform" action="http://www.google.com/search">
+        <form method="get" id="searchform" action="//www.google.com/search">
           <input type="text" class="field" name="q" id="s" placeholder="Search">
-          <input type="hidden" name="q" value="site:ciusy.github.io">
+          <input type="hidden" name="as_sitesearch" value="ciusy.github.io">
         </form>
       </header>
     </div>
@@ -52,12 +52,9 @@
 我发现，学习成本是阻碍 <code>普通人</code> 使用开源软件的最大障碍。比如我，作为非科班出身的真正的门外汉，要搭建这么一个简单的博客，就要经历起码如下三个阶段：
 </p>
 <ul class="org-ul">
-<li>理解并学会使用org-page生成html
-</li>
-<li>学会在命令行中连接github
-</li>
-<li>把生成的html上传到github的repo中
-</li>
+<li>理解并学会使用org-page生成html</li>
+<li>学会在命令行中连接github</li>
+<li>把生成的html上传到github的repo中</li>
 </ul>
 <p>
 在每个阶段我都需要挣扎很长一段时间才能领会到对于科班人员来说属于常识性的东西。要不是之前我有成功学习的经历的话，估计很快就会放弃了。
@@ -72,7 +69,7 @@
     <div>
       <div class="post-meta">
         <span title="post date" class="post-info">2015-02-17</span>
-        <span title="last modification date" class="post-info">2015-02-17</span>
+        <span title="last modification date" class="post-info">2016-04-09</span>
         <span title="tags" class="post-info"><a href="/tags/博客/">博客</a></span>
         <span title="author" class="post-info"></span>
       </div>
@@ -87,15 +84,16 @@
           /* * * DON'T EDIT BELOW THIS LINE * * */
           (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </section>
-      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-      <script src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
       <script src="/media/js/main.js"></script>
       <script type="text/javascript">
         var _gaq = _gaq || [];

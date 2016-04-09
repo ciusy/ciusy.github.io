@@ -4,58 +4,65 @@
     <title>ciusy的闲言碎语</title>
     <link>http://ciusy.github.io/</link>
     <description>好好学习，天天向上</description>
-    <pubDate>日, 22 3月 2015 08:32:05 CST</pubDate>
-    <lastBuildDate>日, 22 3月 2015 08:32:05 CST</lastBuildDate>
+    <pubDate>Sat, 09 Apr 2016 12:22:49 CST</pubDate>
+    <lastBuildDate>Sat, 09 Apr 2016 12:22:49 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>windows上设置预览org-mode中的化学结构式</title>
-      <link>http://ciusy.github.io/blog/2015/03/22/windows上设置预览org-mode中的化学结构式</link>
-      <description>&lt;TODO: insert your description here&gt;</description>
-      <pubDate>2015-03-22</pubDate>
-      <guid>http://ciusy.github.io/blog/2015/03/22/windows上设置预览org-mode中的化学结构式</guid>
-    </item>
-    <item>
       <title>ibus没办法切换到rime输入法的问题</title>
       <link>http://ciusy.github.io/blog/2015/03/14/ibus没办法切换到rime输入法的问题</link>
-      <description>&lt;TODO: insert your description here&gt;</description>
-      <pubDate>2015-03-14</pubDate>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2016-04-09</pubDate>
       <guid>http://ciusy.github.io/blog/2015/03/14/ibus没办法切换到rime输入法的问题</guid>
-    </item>
-    <item>
-      <title>i3自动启动指定程序并移到相应workspace</title>
-      <link>http://ciusy.github.io/blog/2015/03/03/i3自动启动指定程序并移到相应workspace</link>
-      <description>&lt;TODO: insert your description here&gt;</description>
-      <pubDate>2015-03-03</pubDate>
-      <guid>http://ciusy.github.io/blog/2015/03/03/i3自动启动指定程序并移到相应workspace</guid>
-    </item>
-    <item>
-      <title>在org-mode中显示化学结构式</title>
-      <link>http://ciusy.github.io/blog/2015/02/22/在org-mode中显示化学结构式</link>
-      <description>&lt;TODO: insert your description here&gt;</description>
-      <pubDate>2015-02-22</pubDate>
-      <guid>http://ciusy.github.io/blog/2015/02/22/在org-mode中显示化学结构式</guid>
     </item>
     <item>
       <title>介绍i3-gap的个人设置</title>
       <link>http://ciusy.github.io/blog/2015/02/18/介绍i3-gap的个人设置</link>
-      <description>&lt;TODO: insert your description here&gt;</description>
-      <pubDate>2015-02-18</pubDate>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2016-04-09</pubDate>
       <guid>http://ciusy.github.io/blog/2015/02/18/介绍i3-gap的个人设置</guid>
     </item>
     <item>
       <title>洋垃圾笔记本HP8510W报告</title>
       <link>http://ciusy.github.io/blog/2015/02/17/洋垃圾笔记本hp8510w报告</link>
-      <description>&lt;TODO: insert your description here&gt;</description>
-      <pubDate>2015-02-17</pubDate>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2016-04-09</pubDate>
       <guid>http://ciusy.github.io/blog/2015/02/17/洋垃圾笔记本hp8510w报告</guid>
+    </item>
+    <item>
+      <title>外贸三年总结</title>
+      <link>http://ciusy.github.io/blog/2016/04/09/外贸三年总结</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2016-04-09</pubDate>
+      <guid>http://ciusy.github.io/blog/2016/04/09/外贸三年总结</guid>
     </item>
     <item>
       <title>我为什么要写博客</title>
       <link>http://ciusy.github.io/blog/2015/02/17/我为什么要写博客</link>
-      <description>&lt;TODO: insert your description here&gt;</description>
-      <pubDate>2015-02-17</pubDate>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2016-04-09</pubDate>
       <guid>http://ciusy.github.io/blog/2015/02/17/我为什么要写博客</guid>
+    </item>
+    <item>
+      <title>windows上设置预览org-mode中的化学结构式</title>
+      <link>http://ciusy.github.io/blog/2015/03/22/windows上设置预览org-mode中的化学结构式</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2016-04-09</pubDate>
+      <guid>http://ciusy.github.io/blog/2015/03/22/windows上设置预览org-mode中的化学结构式</guid>
+    </item>
+    <item>
+      <title>在org-mode中显示化学结构式</title>
+      <link>http://ciusy.github.io/blog/2015/02/22/在org-mode中显示化学结构式</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2016-04-09</pubDate>
+      <guid>http://ciusy.github.io/blog/2015/02/22/在org-mode中显示化学结构式</guid>
+    </item>
+    <item>
+      <title>i3自动启动指定程序并移到相应workspace</title>
+      <link>http://ciusy.github.io/blog/2015/03/03/i3自动启动指定程序并移到相应workspace</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2015-03-03</pubDate>
+      <guid>http://ciusy.github.io/blog/2015/03/03/i3自动启动指定程序并移到相应workspace</guid>
     </item>
   </channel>
 </rss>

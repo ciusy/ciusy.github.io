@@ -22,9 +22,9 @@
           <li><a href="http://ciusy.github.io/">GitHub</a></li>
           <li><a href="/rss.xml">RSS</a></li>
         </ul>
-        <form method="get" id="searchform" action="http://www.google.com/search">
+        <form method="get" id="searchform" action="//www.google.com/search">
           <input type="text" class="field" name="q" id="s" placeholder="Search">
-          <input type="hidden" name="q" value="site:ciusy.github.io">
+          <input type="hidden" name="as_sitesearch" value="ciusy.github.io">
         </form>
       </header>
     </div>
@@ -33,11 +33,11 @@
 <div class="post">
 <h1>介绍i3-gap的个人设置</h1>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">个人桌面环境的变迁</h2>
-<div class="outline-text-2" id="text-1">
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1">个人桌面环境的变迁</h2>
+<div class="outline-text-2" id="text-orgheadline1">
 <p>
-我第一个正式使用<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>的Linux发行版是Opensuse，所以入门的桌面环境应该算是KDE。
+我第一个正式使用<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>的Linux发行版是Opensuse，所以入门的桌面环境应该算是KDE。
 </p>
 
 <p>
@@ -48,12 +48,9 @@
 后来看到Gentoo能够按照自己的想法搭建环境，实在是非常喜欢。换到Gentoo后，选的还是KDE，不过Gentoo还有三种选择：
 </p>
 <ul class="org-ul">
-<li>kde-base/kde-meta 完整的KDE
-</li>
-<li>kde-base/kdebase-meta 基本的KDE环境
-</li>
-<li>kde-base/kdebase-startkde 非常精简的KDE
-</li>
+<li>kde-base/kde-meta 完整的KDE</li>
+<li>kde-base/kdebase-meta 基本的KDE环境</li>
+<li>kde-base/kdebase-startkde 非常精简的KDE</li>
 </ul>
 <p>
 所以，即便就是在安装过程中，我也对“All about choices”这句Gentoo的口号有了很深的体会。
@@ -73,9 +70,9 @@
 </div>
 </div>
 
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2"><a id="ID-cf6af27c-85f4-4d7f-b8a3-b23d812ed336" name="ID-cf6af27c-85f4-4d7f-b8a3-b23d812ed336"></a>为什么选择i3-gap</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-orgheadline2" class="outline-2">
+<h2 id="orgheadline2"><a id="ID-cf6af27c-85f4-4d7f-b8a3-b23d812ed336"></a>为什么选择i3-gap</h2>
+<div class="outline-text-2" id="text-orgheadline2">
 <p>
 i3有完善的文档，而且也很受欢迎，网上讨论热烈。这样子一来，如果自己有什么想法，估计网上早就有实现方法了。这就是我选择i3的原因。
 <a href="https://github.com/Airblader/i3">
@@ -83,7 +80,7 @@ i3-gap </a>是i3的unofficial fork，可以非常方便的设置窗口之间的g
 </p>
 
 <p>
-一段时间用下来，我真的是非常喜欢i3的各种简洁易折腾<sup><a id="fnr.2" name="fnr.2" class="footref" href="#fn.2">2</a></sup>。
+一段时间用下来，我真的是非常喜欢i3的各种简洁易折腾<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>。
 </p>
 
 <p>
@@ -98,12 +95,12 @@ i3-gap </a>是i3的unofficial fork，可以非常方便的设置窗口之间的g
 </div>
 </div>
 
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">个人设置</h2>
-<div class="outline-text-2" id="text-3">
-</div><div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1">gap</h3>
-<div class="outline-text-3" id="text-3-1">
+<div id="outline-container-orgheadline9" class="outline-2">
+<h2 id="orgheadline9">个人设置</h2>
+<div class="outline-text-2" id="text-orgheadline9">
+</div><div id="outline-container-orgheadline3" class="outline-3">
+<h3 id="orgheadline3">gap</h3>
+<div class="outline-text-3" id="text-orgheadline3">
 <p>
 ~/.i3/config
 </p>
@@ -122,9 +119,9 @@ for_window [class="(?i)urxvt"] border pixel 3
 </pre>
 </div>
 </div>
-<div id="outline-container-sec-3-2" class="outline-3">
-<h3 id="sec-3-2">alternative dmenu</h3>
-<div class="outline-text-3" id="text-3-2">
+<div id="outline-container-orgheadline4" class="outline-3">
+<h3 id="orgheadline4">alternative dmenu</h3>
+<div class="outline-text-3" id="text-orgheadline4">
 <p>
 换了一个更快的菜单启动器
 </p>
@@ -137,9 +134,9 @@ bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
 </pre>
 </div>
 </div>
-<div id="outline-container-sec-3-3" class="outline-3">
-<h3 id="sec-3-3">Dynamically tagging ＆ quick switch</h3>
-<div class="outline-text-3" id="text-3-3">
+<div id="outline-container-orgheadline5" class="outline-3">
+<h3 id="orgheadline5">Dynamically tagging ＆ quick switch</h3>
+<div class="outline-text-3" id="text-orgheadline5">
 <p>
 默认光用数字给workspace命名，实在不够直观。
 </p>
@@ -149,17 +146,14 @@ bindsym $mod+d exec --no-startup-id j4-dmenu-desktop
 </p>
 <ul class="org-ul">
 <li>1:www
-运行firefox
-</li>
+运行firefox</li>
 <li>2:org-mode
-运行emacs
-</li>
-<li>3－6: coding
-</li>
+运行emacs</li>
+<li>3－6: coding</li>
 </ul>
 
 <p>
-个人不太喜欢这种设置，太死板了。我偏好能够对工作空间动态命名，当然命名后也要能够做到用键盘快速切换。所以我就找到了<a href="https://github.com/proxypoke/quickswitch-for-i3">quickswitch.py</a> <sup><a id="fnr.3" name="fnr.3" class="footref" href="#fn.3">3</a></sup>，正符合我的需求。
+个人不太喜欢这种设置，太死板了。我偏好能够对工作空间动态命名，当然命名后也要能够做到用键盘快速切换。所以我就找到了<a href="https://github.com/proxypoke/quickswitch-for-i3">quickswitch.py</a> <sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>，正符合我的需求。
 </p>
 
 <p>
@@ -181,9 +175,9 @@ Super+ctrl+e 我绑定如下行为：先创建一个空的workspace，然后再�
 </p>
 </div>
 </div>
-<div id="outline-container-sec-3-4" class="outline-3">
-<h3 id="sec-3-4">statusbar</h3>
-<div class="outline-text-3" id="text-3-4">
+<div id="outline-container-orgheadline6" class="outline-3">
+<h3 id="orgheadline6">statusbar</h3>
+<div class="outline-text-3" id="text-orgheadline6">
 <p>
 首先我要说明一下我个人的提高注意力的方法。
 </p>
@@ -209,7 +203,7 @@ Super+ctrl+e 我绑定如下行为：先创建一个空的workspace，然后再�
 </p>
 
 <p>
-显示自定义的Python脚本结果，我使用的是wrapper.py方法<sup><a id="fnr.4" name="fnr.4" class="footref" href="#fn.4">4</a></sup>。
+显示自定义的Python脚本结果，我使用的是wrapper.py方法<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>。
 </p>
 
 <p>
@@ -225,21 +219,21 @@ bar {
 </pre>
 
 <p>
-具体的wrapper.py我就不放上来了，写得实在是简陋。我用的是python的sys.argv取得deadline的数值。正常来说，更优雅的实现方法应该是弹出一个窗口输入deadline，但是我用i3-input没有实验成功。现在暂时只能手动写在config设置里面<sup><a id="fnr.5" name="fnr.5" class="footref" href="#fn.5">5</a></sup>。
+具体的wrapper.py我就不放上来了，写得实在是简陋。我用的是python的sys.argv取得deadline的数值。正常来说，更优雅的实现方法应该是弹出一个窗口输入deadline，但是我用i3-input没有实验成功。现在暂时只能手动写在config设置里面<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>。
 </p>
 </div>
 </div>
-<div id="outline-container-sec-3-5" class="outline-3">
-<h3 id="sec-3-5">X starts without displaymanager</h3>
-<div class="outline-text-3" id="text-3-5">
+<div id="outline-container-orgheadline7" class="outline-3">
+<h3 id="orgheadline7">X starts without displaymanager</h3>
+<div class="outline-text-3" id="text-orgheadline7">
 <p>
 <a href="http://wiki.gentoo.org/wiki/X_without_Display_Manager">X without Display Manager - Gentoo Wiki</a>
 </p>
 </div>
 </div>
-<div id="outline-container-sec-3-6" class="outline-3">
-<h3 id="sec-3-6">firefox theme</h3>
-<div class="outline-text-3" id="text-3-6">
+<div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8">firefox theme</h3>
+<div class="outline-text-3" id="text-orgheadline8">
 <p>
 <a href="https://userstyles.org/styles/102262/twily-s-powerline-firefox-css">https://userstyles.org/styles/102262/twily-s-powerline-firefox-css</a>
 </p>
@@ -250,25 +244,25 @@ bar {
 <h2 class="footnotes">Footnotes: </h2>
 <div id="text-footnotes">
 
-<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="#fnr.1">1</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
 在高中的时候曾经尝试用过Ubuntu，当时Ubuntu还在满世界地发光盘。不过那时只是图新鲜玩了一小段的时间，没有坚持下来。
-</p></div>
+</p></div></div>
 
-<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="#fnr.2">2</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
 现在我又发现了bspwm，好像在reddit/r/unix_porn和/g/上都更流行。什么时候可能又会去折腾看看。
-</p></div>
+</p></div></div>
 
-<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="#fnr.3">3</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
 其实我还找到另外一个项目i3-dtags <a href="https://bitbucket.org/MicroJoe/i3-dtags">https://bitbucket.org/MicroJoe/i3-dtags</a>, 用C语言写的，不过它用到了一个我不常用的依赖cJSON。最后我还是选择了python的quickswitch.py。
-</p></div>
+</p></div></div>
 
-<div class="footdef"><sup><a id="fn.4" name="fn.4" class="footnum" href="#fnr.4">4</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
 <a href="http://code.stapelberg.de/git/i3status/tree/contrib/wrapper.py">http://code.stapelberg.de/git/i3status/tree/contrib/wrapper.py</a>
-</p></div>
+</p></div></div>
 
-<div class="footdef"><sup><a id="fn.5" name="fn.5" class="footnum" href="#fnr.5">5</a></sup> <p class="footpara">
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> <div class="footpara"><p class="footpara">
 其实现在的我deadline已经到了，但是这篇博文还是没有写完。目前已经花费了我接近3个小时。看来比我预计的要耗时得多。
-</p></div>
+</p></div></div>
 
 
 </div>
@@ -278,8 +272,8 @@ bar {
     <div>
       <div class="post-meta">
         <span title="post date" class="post-info">2015-02-18</span>
-        <span title="last modification date" class="post-info">2015-02-18</span>
-        <span title="tags" class="post-info"><a href="/tags/i3/">i3</a> <a href="/tags/tilling-wm/">tilling wm</a> <a href="/tags/linux/">linux</a></span>
+        <span title="last modification date" class="post-info">2016-04-09</span>
+        <span title="tags" class="post-info"><a href="/tags/i3/">i3</a>, <a href="/tags/tilling-wm/">tilling wm</a>, <a href="/tags/linux/">linux</a></span>
         <span title="author" class="post-info"></span>
       </div>
       <section>
@@ -293,15 +287,16 @@ bar {
           /* * * DON'T EDIT BELOW THIS LINE * * */
           (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </section>
-      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-      <script src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
       <script src="/media/js/main.js"></script>
       <script type="text/javascript">
         var _gaq = _gaq || [];
