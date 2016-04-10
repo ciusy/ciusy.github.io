@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>org-mode加上思维导图 - ciusy的闲言碎语</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <meta name="description" content="&lt;TODO: insert your description" />
+    <meta name="keywords" content="org-mode,思维导图,周末" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">ciusy的闲言碎语</a></h1>
+        <p>好好学习，天天向上</p>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/wiki/">Wiki</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="http://ciusy.github.io/">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="//www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="ciusy.github.io">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>org-mode加上思维导图</h1>
+<p>
+我从2013年开始使用org-mode，逐渐把它用在了化工外贸工作还有生活的方方面面。
+</p>
+
+<p>
+org-mode诚然很好，一旦把自己的想法、规划计划下来，就不用担心自己之后再忘记了。但是，现在我又开始意识到了一个新的问题：各种各样的TODO充斥着我的Agenda，清理TODO需要我极大的勇气。
+</p>
+
+<p>
+为什么这么说呢？因为作为一名悲催的完美主义者（有完美主义者的心，但是作为没有完美主义的实力），我无法容忍随便标记一项TODO为DONE，必须要达到自己心里满意为止一项任务才能算完成，这样严格的标准，每项任务势必都要花费很长的时间。那么自然而然，最省时间的办法，就是把待办事情推后或者直接视而不见。转头去看新出的动画呀或者玩游戏呀，然后，一边安慰自己，休息下，半个小时后就会动手开展。然而，结果却是，整天都没有干成正事。最终在自己强烈的内心谴责下，爬上床，渡过了一个毫无意义的周末。
+有时候实在受不了内心的谴责，就非常草率地处理任务（草草看几页书或者简历上加几个字），就算完成目标了。
+</p>
+
+<p>
+今天一早我就在分析这种现象出现的原因。为什么工作上的事情我可以处理得井井有条，生活上却是一团糟呢？
+我列出了几点：
+</p>
+<ul class="org-ul">
+<li>工作上我已经有一个系统把Agenda上的待办事项整理归纳，然后有条不紊地开展工作；</li>
+<li>工作有工作的氛围；
+大家都在干活，我也不能偷懒</li>
+<li>工作上有上级的监督。</li>
+</ul>
+
+<p>
+我觉得第一点最要紧。
+工作上的事情万分紧急，自从采用org-mode后，也就逼着我把待办事项分门别类。先是按工作类型不同，分成不同的org-mode文件，如Quotation,Shipping,Purchase,Quality,Sample,Leads,公司任务,部门任务,职业规划等等。后来还嫌不够用，再利用标签做细分，标签如内部订单,商检文件,Fedex文件,退税文件等等。这样细分下来，工作上出现在Agenda视图里的待办事项清清楚楚。
+</p>
+
+<p>
+但是，我在生活上的待办事项就是缺乏这样的一个整理归纳的工作。我的兴趣爱好很广泛，比如计算机知识，我想着学习emacs-lisp有助于org-mode的掌握，也想Python进一步深入学习，也想学习Linux bash；比如本职工作上，想深挖各个产品的反应路线，应用范围，物理性质（粉末？结晶？液体？），运输上的注意事项（普货？危险品？UN号？几类？），主要原料及其供应商<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>，最近也想开发新客户，然后过完年后也有跳槽的想法；比如想复习下日语；比如想学习一项乐器；比如想炒股盈利；比如受朋友影响，开始玩Minecraft，计划把Minecraft玩出点名堂来等等。
+</p>
+
+<p>
+那么，业余时间里，出现在Agenda视图上的待办事项就是非常繁杂的，乱糟糟的一团堆在Private_notes.org文件里。业余时间又是非常有限的，我潜意识其实非常清楚，我是不可能把所有任务在可预见的时间内完成的，所以下意识地选择了逃避。
+</p>
+
+<p>
+既然分析出问题的根源，解决进来就非常简单了。
+</p>
+
+<p>
+用思维导图，把所有待办事项一一列出来<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>。视觉化呈现出来后，哪些事项是比较重要高优先级的，可以先做；哪些事项是不太重要的，属于低优先级，那么可以放在后面做，就算今天做不完或者没有做，也是没有关系的<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>。
+</p>
+
+<p>
+效果图如下：
+<img src="http://7vzp8u.com1.z0.glb.clouddn.com/2016-04-10-095146_1920x1080_scrot.png" alt="2016-04-10-095146_1920x1080_scrot.png" />
+</p>
+
+<p>
+有了整理归纳的工作<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>，业余时间需要处理的事情顿时清晰进来。也就有动力充分利用周末时间，和各种待办事项搏斗了。
+</p>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+我们公司是生产销售化工中间体的，产品非常多，光出现在我的笔记里面的就有226个，这还不包括我没有经手的产品以及处于研发状态还没有商业化生产的产品。并且，并不像机械行业的产品是有限的几个单元排列组合而成，精细化工中间体每个产品的指标、性质都会不一样，再加上反应路线，应用范围，运输注意事项，主要原料等内容，要达到完全掌握公司所有产品（比如客户电话里提起，都能应对自如的程度），粗略估计需要记忆：226*6=1356条信息。非常粗略的估计，因为产品指标还可以细分，原料还可以细分。
+当然，信息量再怎么大，我也必须要完全把产品背完。目前也在慢慢做这方面的工作。先是从经常接触的产品开始，通过看文献，看专利，Google搜索，问同事等途径了解产品信息。
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+作为org-mode狂热爱好者一枚，我选择用org-mode列好大纲，然后再输出成freemind的mm格式，在freemind里面看:)
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+当然，org-mode支持按照优先级排列，我也相信，用emacs-lisp写个custom agenda view可以非常优雅地解决这个问题。但是，这个方法目前在我的能力之外。我也想通了，不想浪费过多的时间在非本职行业上。
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
+实际上，把自己的想法采集下来后，非常需要这项评估工作。比如，图片中货代操作员考试、单证员考试对化工外贸业务员当然是有用的，但是提升不是非常大，不用出现在Agenda里引起自己的焦虑心理，我今天就把它们打上SOMEDAY的标签。以后，什么时候有空闲时间了，再来做。
+</p></div></div>
+
+
+</div>
+</div>
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2016-04-10</span>
+        <span title="last modification date" class="post-info">2016-04-10</span>
+        <span title="tags" class="post-info"><a href="/tags/org-mode/">org-mode</a>, <a href="/tags/思维导图/">思维导图</a>, <a href="/tags/mindmap/">mindmap</a></span>
+        <span title="author" class="post-info"></span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          //var disqus_developer = 1;
+          var disqus_identifier = "/blog/2016/04/10/org-mode加上思维导图";
+          var disqus_url = "http://ciusy.github.io/blog/2016/04/10/org-mode加上思维导图";
+          var disqus_shortname = 'ciusygithubio';
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </section>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-59925066-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:ian &lt;at&gt; gentoo &lt;dot&gt; home"></a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
