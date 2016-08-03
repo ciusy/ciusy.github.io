@@ -4,8 +4,8 @@
     <title>ciusy的闲言碎语</title>
     <link>http://ciusy.github.io/</link>
     <description>好好学习，天天向上</description>
-    <pubDate>Wed, 03 Aug 2016 10:46:46 CST</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 10:46:46 CST</lastBuildDate>
+    <pubDate>Wed, 03 Aug 2016 11:18:09 CST</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 11:18:09 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -14,6 +14,13 @@
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2016-08-03</pubDate>
       <guid>http://ciusy.github.io/blog/2016/04/30/2016年面试总结</guid>
+    </item>
+    <item>
+      <title>CW30总结</title>
+      <link>http://ciusy.github.io/blog/2016/08/03/cw30总结</link>
+      <description><![CDATA[CW30周度总结]]></description>
+      <pubDate>2016-08-03</pubDate>
+      <guid>http://ciusy.github.io/blog/2016/08/03/cw30总结</guid>
     </item>
     <item>
       <title>ibus没办法切换到rime输入法的问题</title>
@@ -70,13 +77,6 @@
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2016-08-03</pubDate>
       <guid>http://ciusy.github.io/blog/2016/04/09/我个人的思考误区</guid>
-    </item>
-    <item>
-      <title>windows上设置预览org-mode中的化学结构式</title>
-      <link>http://ciusy.github.io/blog/2015/03/22/windows上设置预览org-mode中的化学结构式</link>
-      <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
-      <guid>http://ciusy.github.io/blog/2015/03/22/windows上设置预览org-mode中的化学结构式</guid>
     </item>
   </channel>
 </rss>
