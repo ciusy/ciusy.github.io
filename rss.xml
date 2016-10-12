@@ -4,79 +4,79 @@
     <title>ciusy的闲言碎语</title>
     <link>http://ciusy.github.io/</link>
     <description>好好学习，天天向上</description>
-    <pubDate>Wed, 03 Aug 2016 11:18:09 CST</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 11:18:09 CST</lastBuildDate>
+    <pubDate>Thu, 13 Oct 2016 06:27:58 CST</pubDate>
+    <lastBuildDate>Thu, 13 Oct 2016 06:27:58 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>8月总结</title>
+      <link>http://ciusy.github.io/blog/2016/09/03/8月总结</link>
+      <description><![CDATA[每月总结]]></description>
+      <pubDate>2016-10-13</pubDate>
+      <guid>http://ciusy.github.io/blog/2016/09/03/8月总结</guid>
+    </item>
     <item>
       <title>2016年面试总结</title>
       <link>http://ciusy.github.io/blog/2016/04/30/2016年面试总结</link>
       <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2016/04/30/2016年面试总结</guid>
     </item>
     <item>
       <title>CW30总结</title>
       <link>http://ciusy.github.io/blog/2016/08/03/cw30总结</link>
       <description><![CDATA[CW30周度总结]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2016/08/03/cw30总结</guid>
     </item>
     <item>
       <title>ibus没办法切换到rime输入法的问题</title>
       <link>http://ciusy.github.io/blog/2015/03/14/ibus没办法切换到rime输入法的问题</link>
       <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2015/03/14/ibus没办法切换到rime输入法的问题</guid>
     </item>
     <item>
       <title>介绍i3-gap的个人设置</title>
       <link>http://ciusy.github.io/blog/2015/02/18/介绍i3-gap的个人设置</link>
       <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2015/02/18/介绍i3-gap的个人设置</guid>
     </item>
     <item>
       <title>洋垃圾笔记本HP8510W报告</title>
       <link>http://ciusy.github.io/blog/2015/02/17/洋垃圾笔记本hp8510w报告</link>
       <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2015/02/17/洋垃圾笔记本hp8510w报告</guid>
     </item>
     <item>
       <title>辞职自己单干</title>
       <link>http://ciusy.github.io/blog/2016/08/03/辞职自己单干</link>
       <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2016/08/03/辞职自己单干</guid>
     </item>
     <item>
       <title>org-mode加上思维导图</title>
       <link>http://ciusy.github.io/blog/2016/04/10/org-mode加上思维导图</link>
       <description><![CDATA[<TODO: insert your description]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2016/04/10/org-mode加上思维导图</guid>
     </item>
     <item>
       <title>外贸三年总结</title>
       <link>http://ciusy.github.io/blog/2016/04/09/外贸三年总结</link>
       <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2016/04/09/外贸三年总结</guid>
     </item>
     <item>
       <title>我为什么要写博客</title>
       <link>http://ciusy.github.io/blog/2015/02/17/我为什么要写博客</link>
       <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
+      <pubDate>2016-09-13</pubDate>
       <guid>http://ciusy.github.io/blog/2015/02/17/我为什么要写博客</guid>
-    </item>
-    <item>
-      <title>我个人的思考误区</title>
-      <link>http://ciusy.github.io/blog/2016/04/09/我个人的思考误区</link>
-      <description><![CDATA[<TODO: insert your description here>]]></description>
-      <pubDate>2016-08-03</pubDate>
-      <guid>http://ciusy.github.io/blog/2016/04/09/我个人的思考误区</guid>
     </item>
   </channel>
 </rss>
